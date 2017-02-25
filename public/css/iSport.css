@@ -1,0 +1,212 @@
+html, body {
+    background-color: #fff;
+    color: wheat;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+    color: rgba(30, 6, 6, 0.8);
+}
+
+.links > a {
+    color: wheat;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.panel-heading {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+thead {
+    text-align: center;
+}
+
+.card {
+    background-color: rgba(51, 51, 51, 0.8);
+    text-align: center;
+    border-color: #d3e0e9;
+    border-width: thin;
+    border-style: solid;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    margin-bottom: 2%;
+}
+
+.card > h5> a {
+    color: wheat;
+    padding: 0 25px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+}
+
+.card > .follow {
+    color: wheat;
+    border-top-color: #d3e0e9;
+    border-top-width: thin;
+    border-top-style: solid;
+    width: 100%;
+    padding: 5%;
+}
+
+a {
+    color: wheat;
+    padding: 0 25px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.panel-default > .comment {
+    font-weight: 500;
+}
+
+.panel-default > div > .date {
+    text-align: right;
+}
+
+.welcome {
+    background-image: url('../image/welcome.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    min-height: 100%;
+}
+
+.navbar-iSport {
+    background-color: rgba(30, 6, 6, 0.8);
+    border-style: hidden;
+}
+
+.dropdown-menu {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-style: hidden;
+}
+
+.panel-default {
+    border-style: hidden;
+    background-color: rgba(51, 51, 51, 0.8);
+    color: wheat;
+}
+
+.panel-default > .panel-heading {
+    border-style: hidden;
+    border-bottom-style: solid;
+    background-color: rgba(51, 51, 51, 0.8);
+    color: wheat;
+}
+
+.panel-default > .panel-body {
+    background-color: rgba(51, 51, 51, 0.8);
+}
+
+.table > thead > tr > th{
+    text-align: center;
+}
+
+.table > tbody > tr > td{
+    text-align: center;
+}
+
+.btn-default {
+    background-color: wheat;
+    color: rgba(30, 6, 6, 0.8);
+}
+
+.form-control {
+    color: wheat;
+    background: rgba(30, 6, 6, 0.2);
+}
+
+.file {
+    position: relative;
+    display: inline-block;
+    background: rgba(30, 6, 6, 0.2);
+    border-radius: 4px;
+    font-size: 10px;
+    border-color: rgba(255, 255, 255, 0.6);
+    border-style: solid;
+    border-width: 1px;
+    padding: 2.5% 7%;
+    overflow: hidden;
+    color: wheat;
+    text-decoration: none;
+    text-indent: 0;
+    /*line-height: 200px;*/
+}
+
+ .file > input[type = "file"] {
+     position: absolute;
+     font-size: 100px;
+     right: 0;
+     top: 0;
+     opacity: 0;
+}
+
+.file:hover {
+    text-decoration: none;
+    color: #f5ce8a;
+}
+
+.cover_small {
+    border-radius: 4px;
+    border-color: rgba(255, 255, 255, 0.6);
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 5%;
+    width:auto;
+    height:auto;
+    max-width:90%;
+    max-height:90%;
+}
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    rgba(30, 6, 6, 0.2);
+}
+
+.app-background {
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    min-height: 100%;
+    background-size: cover;
+}
